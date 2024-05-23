@@ -1,0 +1,29 @@
+{
+	"ConfigurationsAndPlatforms": [
+		{
+			"Configuration": "DebugGame",
+			"Platform": "Mac",
+			"Target": "Editor"
+		},
+		{
+			"Configuration": "DebugGame",
+			"Platform": "Mac",
+			"Target": "Program"
+		},
+		{
+			"Configuration": "Development",
+			"Platform": "Mac",
+			"Target": "Editor"
+		},
+		{
+			"Configuration": "Development",
+			"Platform": "Mac",
+			"Target": "Program"
+		},
+		{
+			"Configuration": "Shipping",
+			"Platform": "Mac",
+			"Target": "Program"
+		}
+	]
+}

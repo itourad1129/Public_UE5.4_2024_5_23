@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MyProject_test_blank",
+			"Path": "../Source/MyProject_test_blank.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MyProject_test_blankEditor",
+			"Path": "../Source/MyProject_test_blankEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

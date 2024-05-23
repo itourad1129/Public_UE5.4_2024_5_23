@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+/* Begin PBXBuildFile section */
+		2434B1311EF27792EB9F38AF = {isa = PBXBuildFile; fileRef = 66ACA8971CC0D112C1635E97; }; /* MyProject_test_blank.cpp */
+		AF317ED62BC4B40868631989 = {isa = PBXBuildFile; fileRef = 564BF91E2008184FB529941A; }; /* CubeObject.cpp */
+		211D99607045054579138E8D = {isa = PBXBuildFile; fileRef = 541BFA43E509D3901CF4973D; }; /* OriginalCharacter.cpp */
+		BF233639718D712C865BB03E = {isa = PBXBuildFile; fileRef = C62E19B55F8525F00170EC9A; }; /* PlayerControlCharacter.cpp */
+		D8590ADC134655A133917237 = {isa = PBXBuildFile; fileRef = B66A87FA81671AB49093E0F6; }; /* MovePoint.cpp */
+		4E86F13AA7F0AB6964264D92 = {isa = PBXBuildFile; fileRef = 6344B7E935B9671B42451E8D; }; /* TrainArm.cpp */
+		603F04679672907368A23249 = {isa = PBXBuildFile; fileRef = 40EA2E8DACCB5AEAE3BF0B73; }; /* OriginalGameModeBase.cpp */
+		3A5FC4BBDAB21D1346881C80 = {isa = PBXBuildFile; fileRef = BDFAD53B8006E7B7A76E3038; }; /* StartGameModeBase.cpp */
+		10B56F14DC4888859C641707 = {isa = PBXBuildFile; fileRef = 8D7A96DAF2EC02FB9BBA57F1; }; /* MyMath.cpp */
+		F45EBB25EC6E20CB2F8B5A9B = {isa = PBXBuildFile; fileRef = ADB57DD4F8A8181BC78BFA95; }; /* WidgetUserActionDisp.cpp */
+		E3D28B72D26505265103B10D = {isa = PBXBuildFile; fileRef = 59F5DD2681F5C8D5BB418B4B; }; /* Assets.xcassets */
+		4D5D45A0C7FFCE9F2CC4B8AB = {isa = PBXBuildFile; fileRef = FCD69378CEEBDA155A9F9073; }; /* LaunchScreen.storyboardc */
+		23A2D2F0F0FCD99C0F781CBE = {isa = PBXBuildFile; fileRef = 829DAA988491FFFB9921AB5D; }; /* UEMetadata */
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7451D3F36FE827DF64027CFE = {isa = PBXFileReference; explicitFileType = file.txt; name = "DefaultEditor.ini"; path = "../../Config/DefaultEditor.ini"; sourceTree = SOURCE_ROOT; };
+		CEDBC2E8B849B360A801E011 = {isa = PBXFileReference; explicitFileType = file.txt; name = "DefaultEngine.ini"; path = "../../Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		4E6FC01DBECF6EAFE3EBE34A = {isa = PBXFileReference; explicitFileType = file.txt; name = "DefaultGame.ini"; path = "../../Config/DefaultGame.ini"; sourceTree = SOURCE_ROOT; };
+		6BB943E2C40AE476452D4EE3 = {isa = PBXFileReference; explicitFileType = file.txt; name = "DefaultInput.ini"; path = "../../Config/DefaultInput.ini"; sourceTree = SOURCE_ROOT; };
+		07CD09E84C53B2B0707A6D73 = {isa = PBXFileReference; explicitFileType = file.txt; name = "112858600.json"; path = "../../Config/WorldState/112858600.json"; sourceTree = SOURCE_ROOT; };
+		E60406A3EF4238DE7A6CECA2 = {isa = PBXFileReference; explicitFileType = file.txt; name = "3222581562.json"; path = "../../Config/WorldState/3222581562.json"; sourceTree = SOURCE_ROOT; };
+		626E002216CD5D0D39A20148 = {isa = PBXFileReference; explicitFileType = file.txt; name = "598389213.json"; path = "../../Config/WorldState/598389213.json"; sourceTree = SOURCE_ROOT; };
+		F519DBC82B7C343B37F88500 = {isa = PBXFileReference; explicitFileType = file.txt; name = "MyProject_test_blank.uproject"; path = "../../MyProject_test_blank.uproject"; sourceTree = SOURCE_ROOT; };
+		5873D72E80F5FC38B15BAE4B = {isa = PBXFileReference; explicitFileType = file.txt; name = "README.md"; path = "../../README.md"; sourceTree = SOURCE_ROOT; };
+		CF746C0FF4BEC24D1E04EB4B = {isa = PBXFileReference; explicitFileType = file.txt; name = "MyProject_test_blank.Target.cs"; path = "../../Source/MyProject_test_blank.Target.cs"; sourceTree = SOURCE_ROOT; };
+		89DE001E9C9F02A6578AC995 = {isa = PBXFileReference; explicitFileType = file.txt; name = "MyProject_test_blank.Build.cs"; path = "../../Source/MyProject_test_blank/MyProject_test_blank.Build.cs"; sourceTree = SOURCE_ROOT; };
+		66ACA8971CC0D112C1635E97 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "MyProject_test_blank.cpp"; path = "../../Source/MyProject_test_blank/MyProject_test_blank.cpp"; sourceTree = SOURCE_ROOT; };
+		C004D6604DC53D3D7103D3A2 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "MyProject_test_blank.h"; path = "../../Source/MyProject_test_blank/MyProject_test_blank.h"; sourceTree = SOURCE_ROOT; };
+		564BF91E2008184FB529941A = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CubeObject.cpp"; path = "../../Source/MyProject_test_blank/Private/Actor/Character/NPC/TypeObject/CubeObject.cpp"; sourceTree = SOURCE_ROOT; };
+		541BFA43E509D3901CF4973D = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "OriginalCharacter.cpp"; path = "../../Source/MyProject_test_blank/Private/Actor/Character/OriginalCharacter.cpp"; sourceTree = SOURCE_ROOT; };
+		C62E19B55F8525F00170EC9A = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "PlayerControlCharacter.cpp"; path = "../../Source/MyProject_test_blank/Private/Actor/Character/Player/PlayerControlCharacter.cpp"; sourceTree = SOURCE_ROOT; };
+		B66A87FA81671AB49093E0F6 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "MovePoint.cpp"; path = "../../Source/MyProject_test_blank/Private/Actor/GimmickObj/MovePoint.cpp"; sourceTree = SOURCE_ROOT; };
+		6344B7E935B9671B42451E8D = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "TrainArm.cpp"; path = "../../Source/MyProject_test_blank/Private/Actor/GimmickObj/TrainArm.cpp"; sourceTree = SOURCE_ROOT; };
+		40EA2E8DACCB5AEAE3BF0B73 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "OriginalGameModeBase.cpp"; path = "../../Source/MyProject_test_blank/Private/GameModeBase/OriginalGameModeBase.cpp"; sourceTree = SOURCE_ROOT; };
+		BDFAD53B8006E7B7A76E3038 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "StartGameModeBase.cpp"; path = "../../Source/MyProject_test_blank/Private/GameModeBase/StartGameModeBase.cpp"; sourceTree = SOURCE_ROOT; };
+		8D7A96DAF2EC02FB9BBA57F1 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "MyMath.cpp"; path = "../../Source/MyProject_test_blank/Private/Utility/MyMath.cpp"; sourceTree = SOURCE_ROOT; };
+		ADB57DD4F8A8181BC78BFA95 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "WidgetUserActionDisp.cpp"; path = "../../Source/MyProject_test_blank/Private/Widget/UserAction/WidgetUserActionDisp.cpp"; sourceTree = SOURCE_ROOT; };
+		633BFBA74E4A03FC5CE2254E = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "CubeObject.h"; path = "../../Source/MyProject_test_blank/Public/Actor/Character/NPC/TypeObject/CubeObject.h"; sourceTree = SOURCE_ROOT; };
+		477A0A12F74335B8B7AD0102 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "OriginalCharacter.h"; path = "../../Source/MyProject_test_blank/Public/Actor/Character/OriginalCharacter.h"; sourceTree = SOURCE_ROOT; };
+		818610A338A007723130AEBC = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "PlayerControlCharacter.h"; path = "../../Source/MyProject_test_blank/Public/Actor/Character/Player/PlayerControlCharacter.h"; sourceTree = SOURCE_ROOT; };
+		974BDA6CC84E073CA643DF1F = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "MovePoint.h"; path = "../../Source/MyProject_test_blank/Public/Actor/GimmickObj/MovePoint.h"; sourceTree = SOURCE_ROOT; };
+		AFA90E994EC5D2E1719EF509 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TrainArm.h"; path = "../../Source/MyProject_test_blank/Public/Actor/GimmickObj/TrainArm.h"; sourceTree = SOURCE_ROOT; };
+		9127D914008AB121CC26F9A0 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "OriginalGameModeBase.h"; path = "../../Source/MyProject_test_blank/Public/GameModeBase/OriginalGameModeBase.h"; sourceTree = SOURCE_ROOT; };
+		99E5455F7B4B5EBDB0F706F4 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "StartGameModeBase.h"; path = "../../Source/MyProject_test_blank/Public/GameModeBase/StartGameModeBase.h"; sourceTree = SOURCE_ROOT; };
+		73FF3FC86DC9993C2CD325C7 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "MyMath.h"; path = "../../Source/MyProject_test_blank/Public/Utility/MyMath.h"; sourceTree = SOURCE_ROOT; };
+		6971B98FC83BDB78BF5E7B1A = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "WidgetUserActionDisp.h"; path = "../../Source/MyProject_test_blank/Public/Widget/UserAction/WidgetUserActionDisp.h"; sourceTree = SOURCE_ROOT; };
+		AF8E60A31C42DA327BABA70E = {isa = PBXFileReference; explicitFileType = wrapper.application; name = "MyProject_test_blank"; path = "MyProject_test_blank"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59F5DD2681F5C8D5BB418B4B = {isa = PBXFileReference; explicitFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "/Users/Shared/Epic Games/UE_5.4/Engine/Build/Mac/Resources/Assets.xcassets"; sourceTree = "<absolute>"; };
+		FCD69378CEEBDA155A9F9073 = {isa = PBXFileReference; explicitFileType = wrapper.storyboardc; name = "LaunchScreen.storyboardc"; path = "/Users/Shared/Epic Games/UE_5.4/Engine/Build/IOS/Resources/Interface/LaunchScreen.storyboardc"; sourceTree = "<absolute>"; };
+		829DAA988491FFFB9921AB5D = {isa = PBXFileReference; explicitFileType = file.txt; name = "UEMetadata"; path = "/Users/Shared/Epic Games/UE_5.4/Engine/Build/Mac/Resources/UEMetadata"; sourceTree = "<absolute>"; };
+		11B15C8E6AD09C5127D73C51 = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "MyProject_test_blank.xcconfig"; path = "XcconfigsMac/MyProject_test_blank.xcconfig"; sourceTree = "<group>"; };
+		9AC651CA496E90F6E6E8C90C = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "MyProject_test_blank_DebugGame.xcconfig"; path = "XcconfigsMac/MyProject_test_blank_DebugGame.xcconfig"; sourceTree = "<group>"; };
+		1594BA192E407DAA4F335853 = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "MyProject_test_blank_Development.xcconfig"; path = "XcconfigsMac/MyProject_test_blank_Development.xcconfig"; sourceTree = "<group>"; };
+		18E55A7F4002CBB41D40A75A = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "MyProject_test_blank_Shipping.xcconfig"; path = "XcconfigsMac/MyProject_test_blank_Shipping.xcconfig"; sourceTree = "<group>"; };
+		B48FE77CD88803D4E7EC048E = {isa = PBXFileReference; explicitFileType = text.plist; name = "Info-Editor.Template.plist"; path = "../../../../../../Shared/Epic Games/UE_5.4/Engine/Intermediate/Build/Mac/Resources/Info-Editor.Template.plist"; sourceTree = "<group>"; };
+		88C6159643F8A43CEA86DFEB = {isa = PBXFileReference; explicitFileType = text.plist; name = "Info.Template.plist"; path = "../../Build/Mac/Resources/Info.Template.plist"; sourceTree = "<group>"; };
+		1D4FE2F240804B53F8C38DF3 = {isa = PBXFileReference; explicitFileType = text.plist; name = "Sandbox.Server.entitlements"; path = "../../Build/Mac/Resources/Sandbox.Server.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4277BEF3106896D7808E2B40 = {
+			isa = PBXGroup;
+			children = (
+				74FF436F57022214371F664D /* Config */,
+				0DC066E0F4280B420E21725D /* Source */,
+				F519DBC82B7C343B37F88500 /* MyProject_test_blank.uproject */,
+				5873D72E80F5FC38B15BAE4B /* README.md */,
+				3801F4CEDF863C7E9F249E16 /* Products */,
+				B97F3AE39BF17F10ABBA749B /* Resources */,
+				06EE4ED035DCE585639DD073 /* Xcconfigs */,
+				6BB3F2F4AC8342C827C98156 /* Metadata */,
+			);
+			sourceTree = "<group>";
+		};
+		74FF436F57022214371F664D = {
+			isa = PBXGroup;
+			children = (
+				65D26461603F987E424B68D4 /* WorldState */,
+				7451D3F36FE827DF64027CFE /* DefaultEditor.ini */,
+				CEDBC2E8B849B360A801E011 /* DefaultEngine.ini */,
+				4E6FC01DBECF6EAFE3EBE34A /* DefaultGame.ini */,
+				6BB943E2C40AE476452D4EE3 /* DefaultInput.ini */,
+			);
+			name = "Config";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Config";
+			sourceTree = "<absolute>";
+		};
+		65D26461603F987E424B68D4 = {
+			isa = PBXGroup;
+			children = (
+				07CD09E84C53B2B0707A6D73 /* 112858600.json */,
+				E60406A3EF4238DE7A6CECA2 /* 3222581562.json */,
+				626E002216CD5D0D39A20148 /* 598389213.json */,
+			);
+			name = "WorldState";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Config/WorldState";
+			sourceTree = "<absolute>";
+		};
+		0DC066E0F4280B420E21725D = {
+			isa = PBXGroup;
+			children = (
+				2B864F1D8770A94DC61492D3 /* MyProject_test_blank */,
+				CF746C0FF4BEC24D1E04EB4B /* MyProject_test_blank.Target.cs */,
+			);
+			name = "Source";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source";
+			sourceTree = "<absolute>";
+		};
+		2B864F1D8770A94DC61492D3 = {
+			isa = PBXGroup;
+			children = (
+				808598B5723E71D67AC21B4D /* Private */,
+				951617E1F1F6AB4587EECC2F /* Public */,
+				89DE001E9C9F02A6578AC995 /* MyProject_test_blank.Build.cs */,
+				66ACA8971CC0D112C1635E97 /* MyProject_test_blank.cpp */,
+				C004D6604DC53D3D7103D3A2 /* MyProject_test_blank.h */,
+			);
+			name = "MyProject_test_blank";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank";
+			sourceTree = "<absolute>";
+		};
+		808598B5723E71D67AC21B4D = {
+			isa = PBXGroup;
+			children = (
+				7736ACC84C1376352220B5CD /* Actor */,
+				3F344B9FC6BA2018A53C83AE /* GameModeBase */,
+				B47FD711EAFCC664E7E2C5BB /* Utility */,
+				BB4AA997E5F7F4DAD3B30434 /* Widget */,
+			);
+			name = "Private";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Private";
+			sourceTree = "<absolute>";
+		};
+		7736ACC84C1376352220B5CD = {
+			isa = PBXGroup;
+			children = (
+				16FDEEF94AE05963720F9D22 /* Character */,
+				CBE7A9F22CAA6BCA205CE892 /* GimmickObj */,
+			);
+			name = "Actor";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Private/Actor";
+			sourceTree = "<absolute>";
+		};
+		16FDEEF94AE05963720F9D22 = {
+			isa = PBXGroup;
+			children = (
+				182D3C28FF271C5A4F2D7954 /* NPC */,
+				CDA0ADB4FD656D7BC5928BDF /* Player */,
+				541BFA43E509D3901CF4973D /* OriginalCharacter.cpp */,
+			);
+			name = "Character";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Private/Actor/Character";
+			sourceTree = "<absolute>";
+		};
+		182D3C28FF271C5A4F2D7954 = {
+			isa = PBXGroup;
+			children = (
+				B01CDC2AF221F25E65E3E75B /* TypeObject */,
+			);
+			name = "NPC";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Private/Actor/Character/NPC";
+			sourceTree = "<absolute>";
+		};
+		B01CDC2AF221F25E65E3E75B = {
+			isa = PBXGroup;
+			children = (
+				564BF91E2008184FB529941A /* CubeObject.cpp */,
+			);
+			name = "TypeObject";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Private/Actor/Character/NPC/TypeObject";
+			sourceTree = "<absolute>";
+		};
+		CDA0ADB4FD656D7BC5928BDF = {
+			isa = PBXGroup;
+			children = (
+				C62E19B55F8525F00170EC9A /* PlayerControlCharacter.cpp */,
+			);
+			name = "Player";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Private/Actor/Character/Player";
+			sourceTree = "<absolute>";
+		};
+		CBE7A9F22CAA6BCA205CE892 = {
+			isa = PBXGroup;
+			children = (
+				B66A87FA81671AB49093E0F6 /* MovePoint.cpp */,
+				6344B7E935B9671B42451E8D /* TrainArm.cpp */,
+			);
+			name = "GimmickObj";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Private/Actor/GimmickObj";
+			sourceTree = "<absolute>";
+		};
+		3F344B9FC6BA2018A53C83AE = {
+			isa = PBXGroup;
+			children = (
+				40EA2E8DACCB5AEAE3BF0B73 /* OriginalGameModeBase.cpp */,
+				BDFAD53B8006E7B7A76E3038 /* StartGameModeBase.cpp */,
+			);
+			name = "GameModeBase";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Private/GameModeBase";
+			sourceTree = "<absolute>";
+		};
+		B47FD711EAFCC664E7E2C5BB = {
+			isa = PBXGroup;
+			children = (
+				8D7A96DAF2EC02FB9BBA57F1 /* MyMath.cpp */,
+			);
+			name = "Utility";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Private/Utility";
+			sourceTree = "<absolute>";
+		};
+		BB4AA997E5F7F4DAD3B30434 = {
+			isa = PBXGroup;
+			children = (
+				CC643175EBD7F3F4D4657402 /* UserAction */,
+			);
+			name = "Widget";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Private/Widget";
+			sourceTree = "<absolute>";
+		};
+		CC643175EBD7F3F4D4657402 = {
+			isa = PBXGroup;
+			children = (
+				ADB57DD4F8A8181BC78BFA95 /* WidgetUserActionDisp.cpp */,
+			);
+			name = "UserAction";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Private/Widget/UserAction";
+			sourceTree = "<absolute>";
+		};
+		951617E1F1F6AB4587EECC2F = {
+			isa = PBXGroup;
+			children = (
+				B21DCD01EBD0E10E33FFF325 /* Actor */,
+				D15EFD4FA1A0EFCAB93B5CA0 /* GameModeBase */,
+				B92EDC7EE8FD6BD1EC41DEA1 /* Utility */,
+				A9C8EA6F1FDB8FA5D9750126 /* Widget */,
+			);
+			name = "Public";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Public";
+			sourceTree = "<absolute>";
+		};
+		B21DCD01EBD0E10E33FFF325 = {
+			isa = PBXGroup;
+			children = (
+				6BDB0C8420F650E6E4349450 /* Character */,
+				F3E92C77A604E0F576C54B66 /* GimmickObj */,
+			);
+			name = "Actor";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Public/Actor";
+			sourceTree = "<absolute>";
+		};
+		6BDB0C8420F650E6E4349450 = {
+			isa = PBXGroup;
+			children = (
+				E0DDF8E2BC59EF4475644638 /* NPC */,
+				1B9FC067F77C48CDE839B10A /* Player */,
+				477A0A12F74335B8B7AD0102 /* OriginalCharacter.h */,
+			);
+			name = "Character";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Public/Actor/Character";
+			sourceTree = "<absolute>";
+		};
+		E0DDF8E2BC59EF4475644638 = {
+			isa = PBXGroup;
+			children = (
+				BA25F2E99492F4611624BC85 /* TypeObject */,
+			);
+			name = "NPC";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Public/Actor/Character/NPC";
+			sourceTree = "<absolute>";
+		};
+		BA25F2E99492F4611624BC85 = {
+			isa = PBXGroup;
+			children = (
+				633BFBA74E4A03FC5CE2254E /* CubeObject.h */,
+			);
+			name = "TypeObject";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Public/Actor/Character/NPC/TypeObject";
+			sourceTree = "<absolute>";
+		};
+		1B9FC067F77C48CDE839B10A = {
+			isa = PBXGroup;
+			children = (
+				818610A338A007723130AEBC /* PlayerControlCharacter.h */,
+			);
+			name = "Player";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Public/Actor/Character/Player";
+			sourceTree = "<absolute>";
+		};
+		F3E92C77A604E0F576C54B66 = {
+			isa = PBXGroup;
+			children = (
+				974BDA6CC84E073CA643DF1F /* MovePoint.h */,
+				AFA90E994EC5D2E1719EF509 /* TrainArm.h */,
+			);
+			name = "GimmickObj";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Public/Actor/GimmickObj";
+			sourceTree = "<absolute>";
+		};
+		D15EFD4FA1A0EFCAB93B5CA0 = {
+			isa = PBXGroup;
+			children = (
+				9127D914008AB121CC26F9A0 /* OriginalGameModeBase.h */,
+				99E5455F7B4B5EBDB0F706F4 /* StartGameModeBase.h */,
+			);
+			name = "GameModeBase";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Public/GameModeBase";
+			sourceTree = "<absolute>";
+		};
+		B92EDC7EE8FD6BD1EC41DEA1 = {
+			isa = PBXGroup;
+			children = (
+				73FF3FC86DC9993C2CD325C7 /* MyMath.h */,
+			);
+			name = "Utility";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Public/Utility";
+			sourceTree = "<absolute>";
+		};
+		A9C8EA6F1FDB8FA5D9750126 = {
+			isa = PBXGroup;
+			children = (
+				1D4A7E4698C13F3AAECFD6ED /* UserAction */,
+			);
+			name = "Widget";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Public/Widget";
+			sourceTree = "<absolute>";
+		};
+		1D4A7E4698C13F3AAECFD6ED = {
+			isa = PBXGroup;
+			children = (
+				6971B98FC83BDB78BF5E7B1A /* WidgetUserActionDisp.h */,
+			);
+			name = "UserAction";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Public/Widget/UserAction";
+			sourceTree = "<absolute>";
+		};
+		3801F4CEDF863C7E9F249E16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF8E60A31C42DA327BABA70E /* MyProject_test_blank */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B97F3AE39BF17F10ABBA749B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				59F5DD2681F5C8D5BB418B4B /* Assets.xcassets */,
+				FCD69378CEEBDA155A9F9073 /* LaunchScreen.storyboardc */,
+				829DAA988491FFFB9921AB5D /* UEMetadata */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		06EE4ED035DCE585639DD073 /* Xcconfigs */ = {
+			isa = PBXGroup;
+			children = (
+				11B15C8E6AD09C5127D73C51 /* MyProject_test_blank.xcconfig */,
+				9AC651CA496E90F6E6E8C90C /* MyProject_test_blank_DebugGame.xcconfig */,
+				1594BA192E407DAA4F335853 /* MyProject_test_blank_Development.xcconfig */,
+				18E55A7F4002CBB41D40A75A /* MyProject_test_blank_Shipping.xcconfig */,
+			);
+			name = Xcconfigs;
+			sourceTree = "<group>";
+		};
+		6BB3F2F4AC8342C827C98156 /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				B48FE77CD88803D4E7EC048E /* Info-Editor.Template.plist */,
+				88C6159643F8A43CEA86DFEB /* Info.Template.plist */,
+				1D4FE2F240804B53F8C38DF3 /* Sandbox.Server.entitlements */,
+			);
+			name = Metadata;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+/* Begin PBXProject section */
+		FFF715A82EEB92686A74AEA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					E2345CDA301D4C00C4056CCA = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 61E9DB6F394429E0F7682FE9 /* Build configuration list for PBXProject "MyProject_test_blank" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 4277BEF3106896D7808E2B40;
+			productRefGroup = 3801F4CEDF863C7E9F249E16;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2345CDA301D4C00C4056CCA /* MyProject_test_blank */,
+				B9E00547FA14DACDC14448C7 /* MyProject_test_blank_Build */,
+			);
+		};
+/* End PBXProject section */
+/* Begin Run_App section */
+		E2345CDA301D4C00C4056CCA /* MyProject_test_blank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 593286A42ECBAE32500EAEC3 /* Build configuration list for PBXNativeTarget "MyProject_test_blank" */;
+			buildPhases = (
+				82A8B360923B91C8B0F0BD37 /* Resources */,
+				75F60951414108601950F018 /* Copy Executable and Staged Data into .app */,
+				3DB370034C6B49FB21873C1D /* Generate dsym for archive, and strip */,
+			);
+			dependencies = (
+				89E9239C75334D5F4AB0ED62 /* MyProject_test_blank_Build */,
+			);
+			name = "MyProject_test_blank";
+			passBuildSettingsInEnvironment = 1;
+			productType = "com.apple.product-type.application";
+			productReference = AF8E60A31C42DA327BABA70E;
+			productName = "MyProject_test_blank";
+		};
+/* End Run_App section */
+		593286A42ECBAE32500EAEC3 /* Build configuration list for target MyProject_test_blank */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7FB2923F43F069226AE1755 /* DebugGame */,
+				8F77326F3BE974D7CC7B8943 /* Development */,
+				BED8EB5442867BAC2859849F /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Development";
+		};
+		C7FB2923F43F069226AE1755 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AC651CA496E90F6E6E8C90C /* MyProject_test_blank_DebugGame.xcconfig */;
+			buildSettings = {
+			};
+			name = "DebugGame";
+		};
+		8F77326F3BE974D7CC7B8943 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1594BA192E407DAA4F335853 /* MyProject_test_blank_Development.xcconfig */;
+			buildSettings = {
+			};
+			name = "Development";
+		};
+		BED8EB5442867BAC2859849F /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18E55A7F4002CBB41D40A75A /* MyProject_test_blank_Shipping.xcconfig */;
+			buildSettings = {
+			};
+			name = "Shipping";
+		};
+/* Begin PBXResourcesBuildPhase section */
+		82A8B360923B91C8B0F0BD37 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D28B72D26505265103B10D /* Assets.xcassets in Resources */,
+				4D5D45A0C7FFCE9F2CC4B8AB /* LaunchScreen.storyboardc in Resources */,
+				23A2D2F0F0FCD99C0F781CBE /* UEMetadata in Resources */,
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+/* Begin PBXShellScriptBuildPhase section */
+		75F60951414108601950F018 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Copy Executable and Staged Data into .app";
+			inputPaths = (
+			);
+			outputPaths = (
+				"/dev/null"
+			);
+			shellPath = /bin/sh;
+			shellScript = "set -eo pipefail\nSRC_EXE=\"${UE_BINARIES_DIR}/${UE_UBT_BINARY_SUBPATH}\"\nDEST_EXE=\"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"\nDEST_EXE_DIR=`dirname \"${DEST_EXE}\"`\n\necho Copying executable and any standalone dylibs into ${DEST_EXE_DIR} but do not overwrite unless src is newer\nmkdir -p \"${DEST_EXE_DIR}\"\nrsync -au \"${SRC_EXE}\" \"${DEST_EXE}\"\n\n# Skip syncing if desired\nif [[ ${UE_SKIP_STAGEDDATA_SYNC} -eq 1 ]]; then exit 0; fi\n\n# When building engine projects, like UnrealGame, we don't have data to stage unless something has specified UE_OVERRIDE_STAGE_DIR\nif [[ -z ${UE_OVERRIDE_STAGE_DIR} ]]; then \nSTAGED_DIR=\"${UE_PROJECT_DIR}/Saved/StagedBuilds/${UE_TARGET_PLATFORM_NAME}\"\nelse\n  STAGED_DIR=\"${UE_OVERRIDE_STAGE_DIR}\"\nfi\nif [[ -z ${STAGED_DIR} ]]; then exit 0; fi\n# Make sure the staged directory exists and has files in it\nif [[ ! -e \"${STAGED_DIR}\" || ! $(ls -A \"${STAGED_DIR}\") ]]; then \n  echo =========================================================================================\n  echo \"WARNING: To run, you must have a valid staged build directory. The Staged location is:\"\n  echo \"  ${STAGED_DIR}\"\n  echo \"Use the editor's Platforms menu, or run a command like::\"\n  echo \"./RunUAT.sh BuildCookRun -platform=Mac -project=<project> -build -cook -stage -pak\"\n  echo =========================================================================================\n  exit -0 \nfi\n\necho \"Syncing ${STAGED_DIR} to ${CONFIGURATION_BUILD_DIR}/${CONTENTS_FOLDER_PATH}/UE\"\nrsync -a --delete --exclude=\"/Info.plist\" --exclude=\"/Manifest_*\" --exclude=\"/*.app\" \"${STAGED_DIR}/\" \"${CONFIGURATION_BUILD_DIR}/${CONTENTS_FOLDER_PATH}/UE\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+/* Begin PBXShellScriptBuildPhase section */
+		3DB370034C6B49FB21873C1D = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Generate dsym for archive, and strip";
+			inputPaths = (
+				"\"$(CONFIGURATION_BUILD_DIR)/$(EXECUTABLE_PATH)\""
+			);
+			outputPaths = (
+				"\"$(DWARF_DSYM_FOLDER_PATH)/$(DWARF_DSYM_FILE_NAME)\""
+			);
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\n# Run the wrapper dsym generator\n\"${UE_ENGINE_DIR}/Build/BatchFiles/Mac/GenerateUniversalDSYM.sh\" \"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\" \"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}\"\nstrip -no_code_signature_warning -D \"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"\n\n# Remove any unused architectures from dylibs in the .app (param1) that don't match the executable (param2). Also error if a dylib is missing arches\n\"${UE_ENGINE_DIR}/Build/BatchFiles/Mac/ThinApp.sh\" \"${CONFIGURATION_BUILD_DIR}/${CONTENTS_FOLDER_PATH}\" \"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		8F44BE3C6EB68D311E8A7EB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFF715A82EEB92686A74AEA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9E00547FA14DACDC14448C7;
+			remoteInfo = "MyProject_test_blank_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		89E9239C75334D5F4AB0ED62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9E00547FA14DACDC14448C7 /* MyProject_test_blank_Build */;
+			targetProxy = 8F44BE3C6EB68D311E8A7EB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+/* Begin Build section */
+		B9E00547FA14DACDC14448C7 /* MyProject_test_blank_Build */ = {
+			isa = PBXLegacyTarget;
+			buildConfigurationList = 05C43504BA37F2B8BFB8F693 /* Build configuration list for PBXLegacyTarget "MyProject_test_blank_Build" */;
+			buildArgumentsString = "$(ACTION) MyProject_test_blank $(PLATFORM_NAME) $(CONFIGURATION) /Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/MyProject_test_blank.uproject";
+			buildToolPath = "/Users/Shared/Epic Games/UE_5.4/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/Shared/Epic Games/UE_5.4";
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "MyProject_test_blank_Build";
+			passBuildSettingsInEnvironment = 1;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End Build section */
+		05C43504BA37F2B8BFB8F693 /* Build configuration list for target MyProject_test_blank_Build */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C54D36258D56043F8706F5 /* DebugGame */,
+				BD392585052015633DC95888 /* Development */,
+				72A5819A2B9F8EC58ABE7ADE /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Development";
+		};
+		32C54D36258D56043F8706F5 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = "DebugGame";
+		};
+		BD392585052015633DC95888 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = "Development";
+		};
+		72A5819A2B9F8EC58ABE7ADE /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = "Shipping";
+		};
+		61E9DB6F394429E0F7682FE9 /* Build configuration list for target MyProject_test_blank */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				468A136D54D387F6D9D44B25 /* DebugGame */,
+				A97932424B2B458BFFBDE856 /* Development */,
+				FE9ECD89145C61337FB30F66 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Development";
+		};
+		468A136D54D387F6D9D44B25 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos appletvsimulator appletvos xros xrsimulator";
+				ONLY_ACTIVE_ARCH = YES;
+				"VALID_ARCHS[sdk=macos*]" = "arm64 x86_64";
+			};
+			name = "DebugGame";
+		};
+		A97932424B2B458BFFBDE856 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos appletvsimulator appletvos xros xrsimulator";
+				ONLY_ACTIVE_ARCH = YES;
+				"VALID_ARCHS[sdk=macos*]" = "arm64 x86_64";
+			};
+			name = "Development";
+		};
+		FE9ECD89145C61337FB30F66 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos appletvsimulator appletvos xros xrsimulator";
+				ONLY_ACTIVE_ARCH = YES;
+				"VALID_ARCHS[sdk=macos*]" = "arm64 x86_64";
+			};
+			name = "Shipping";
+		};
+	};
+	rootObject = FFF715A82EEB92686A74AEA5 /* Project object */;
+}

@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+/* Begin PBXBuildFile section */
+		9CC4287018F4DADD3A0A41BA = {isa = PBXBuildFile; fileRef = A703E1459CD35E9F38D6E57B; settings = {COMPILER_FLAGS = "@/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Intermediate/ProjectFiles/ResponseFiles/MyProject_test_blankEditor1.response"; }; }; /* MyProject_test_blank.cpp */
+		4E38B0D4E7DEA4B66B5C8EB0 = {isa = PBXBuildFile; fileRef = DC5659CD89A8019D94163BE5; settings = {COMPILER_FLAGS = "@/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Intermediate/ProjectFiles/ResponseFiles/MyProject_test_blankEditor1.response"; }; }; /* CubeObject.cpp */
+		940ED7F8B2F6A48930BF8BAF = {isa = PBXBuildFile; fileRef = 3AE3C3C8718475443D3A9DEB; settings = {COMPILER_FLAGS = "@/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Intermediate/ProjectFiles/ResponseFiles/MyProject_test_blankEditor1.response"; }; }; /* OriginalCharacter.cpp */
+		BFA1D981FF81D55A71EBAA7A = {isa = PBXBuildFile; fileRef = 45CFA2521AD444DD5413EC1A; settings = {COMPILER_FLAGS = "@/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Intermediate/ProjectFiles/ResponseFiles/MyProject_test_blankEditor1.response"; }; }; /* PlayerControlCharacter.cpp */
+		DA5A69B7E0A906827CC19039 = {isa = PBXBuildFile; fileRef = 736F6CF90B14AD79585129AA; settings = {COMPILER_FLAGS = "@/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Intermediate/ProjectFiles/ResponseFiles/MyProject_test_blankEditor1.response"; }; }; /* MovePoint.cpp */
+		2B316F23BEB34F0BC32E3232 = {isa = PBXBuildFile; fileRef = 5C20C675C8836A4A0674C613; settings = {COMPILER_FLAGS = "@/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Intermediate/ProjectFiles/ResponseFiles/MyProject_test_blankEditor1.response"; }; }; /* TrainArm.cpp */
+		48131DFC6D9E7BF9BEE2BACD = {isa = PBXBuildFile; fileRef = 485D383540DA6AF124C6965C; settings = {COMPILER_FLAGS = "@/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Intermediate/ProjectFiles/ResponseFiles/MyProject_test_blankEditor1.response"; }; }; /* OriginalGameModeBase.cpp */
+		F1BBFA4DFA2A931BD7FEFAC6 = {isa = PBXBuildFile; fileRef = C5C82DB85A128FAA914A9B2B; settings = {COMPILER_FLAGS = "@/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Intermediate/ProjectFiles/ResponseFiles/MyProject_test_blankEditor1.response"; }; }; /* StartGameModeBase.cpp */
+		2BA7BB9439FF5637FDCB1546 = {isa = PBXBuildFile; fileRef = 0522B7E986343FF0ACDF88BA; settings = {COMPILER_FLAGS = "@/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Intermediate/ProjectFiles/ResponseFiles/MyProject_test_blankEditor1.response"; }; }; /* MyMath.cpp */
+		6C332A0C8CC5D7A61FCF05E6 = {isa = PBXBuildFile; fileRef = 0C96AE39820107E20D606FFC; settings = {COMPILER_FLAGS = "@/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Intermediate/ProjectFiles/ResponseFiles/MyProject_test_blankEditor1.response"; }; }; /* WidgetUserActionDisp.cpp */
+		A9983FB132EAE47630B924A7 = {isa = PBXBuildFile; fileRef = A1ABE19D672EBD11088DCA2B; }; /* Assets.xcassets */
+		8448B04A4184A34299DEE030 = {isa = PBXBuildFile; fileRef = D5BC88AFE68D6309351BD2AE; }; /* LaunchScreen.storyboardc */
+		CEC54466E4B15FB0EBC0D5D3 = {isa = PBXBuildFile; fileRef = CC4DC4F489062BBA9CA6B9E7; }; /* UEMetadata */
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10E4841AB4578BB4EF66F8B7 = {isa = PBXFileReference; explicitFileType = file.txt; name = "MyProject_test_blank.uproject"; path = "../../MyProject_test_blank.uproject"; sourceTree = SOURCE_ROOT; };
+		DB6DB93C6B0703BD9DDA4180 = {isa = PBXFileReference; explicitFileType = file.txt; name = "README.md"; path = "../../README.md"; sourceTree = SOURCE_ROOT; };
+		1D5D503ED32AA262171127E5 = {isa = PBXFileReference; explicitFileType = file.txt; name = "MyProject_test_blank.Build.cs"; path = "../../Source/MyProject_test_blank/MyProject_test_blank.Build.cs"; sourceTree = SOURCE_ROOT; };
+		A703E1459CD35E9F38D6E57B = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "MyProject_test_blank.cpp"; path = "../../Source/MyProject_test_blank/MyProject_test_blank.cpp"; sourceTree = SOURCE_ROOT; };
+		585881F84BC8D0F151DABD95 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "MyProject_test_blank.h"; path = "../../Source/MyProject_test_blank/MyProject_test_blank.h"; sourceTree = SOURCE_ROOT; };
+		DC5659CD89A8019D94163BE5 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CubeObject.cpp"; path = "../../Source/MyProject_test_blank/Private/Actor/Character/NPC/TypeObject/CubeObject.cpp"; sourceTree = SOURCE_ROOT; };
+		3AE3C3C8718475443D3A9DEB = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "OriginalCharacter.cpp"; path = "../../Source/MyProject_test_blank/Private/Actor/Character/OriginalCharacter.cpp"; sourceTree = SOURCE_ROOT; };
+		45CFA2521AD444DD5413EC1A = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "PlayerControlCharacter.cpp"; path = "../../Source/MyProject_test_blank/Private/Actor/Character/Player/PlayerControlCharacter.cpp"; sourceTree = SOURCE_ROOT; };
+		736F6CF90B14AD79585129AA = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "MovePoint.cpp"; path = "../../Source/MyProject_test_blank/Private/Actor/GimmickObj/MovePoint.cpp"; sourceTree = SOURCE_ROOT; };
+		5C20C675C8836A4A0674C613 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "TrainArm.cpp"; path = "../../Source/MyProject_test_blank/Private/Actor/GimmickObj/TrainArm.cpp"; sourceTree = SOURCE_ROOT; };
+		485D383540DA6AF124C6965C = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "OriginalGameModeBase.cpp"; path = "../../Source/MyProject_test_blank/Private/GameModeBase/OriginalGameModeBase.cpp"; sourceTree = SOURCE_ROOT; };
+		C5C82DB85A128FAA914A9B2B = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "StartGameModeBase.cpp"; path = "../../Source/MyProject_test_blank/Private/GameModeBase/StartGameModeBase.cpp"; sourceTree = SOURCE_ROOT; };
+		0522B7E986343FF0ACDF88BA = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "MyMath.cpp"; path = "../../Source/MyProject_test_blank/Private/Utility/MyMath.cpp"; sourceTree = SOURCE_ROOT; };
+		0C96AE39820107E20D606FFC = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "WidgetUserActionDisp.cpp"; path = "../../Source/MyProject_test_blank/Private/Widget/UserAction/WidgetUserActionDisp.cpp"; sourceTree = SOURCE_ROOT; };
+		8B640BEDF07C4745226A6C29 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "CubeObject.h"; path = "../../Source/MyProject_test_blank/Public/Actor/Character/NPC/TypeObject/CubeObject.h"; sourceTree = SOURCE_ROOT; };
+		DBE742AE00201C3C28CF88CE = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "OriginalCharacter.h"; path = "../../Source/MyProject_test_blank/Public/Actor/Character/OriginalCharacter.h"; sourceTree = SOURCE_ROOT; };
+		7E878B8C4AD56F429659239B = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "PlayerControlCharacter.h"; path = "../../Source/MyProject_test_blank/Public/Actor/Character/Player/PlayerControlCharacter.h"; sourceTree = SOURCE_ROOT; };
+		BE79484811B8A89930114E9C = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "MovePoint.h"; path = "../../Source/MyProject_test_blank/Public/Actor/GimmickObj/MovePoint.h"; sourceTree = SOURCE_ROOT; };
+		216D2D4648E4140F24E4235F = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "TrainArm.h"; path = "../../Source/MyProject_test_blank/Public/Actor/GimmickObj/TrainArm.h"; sourceTree = SOURCE_ROOT; };
+		C98E3D69A3473E4E16C75048 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "OriginalGameModeBase.h"; path = "../../Source/MyProject_test_blank/Public/GameModeBase/OriginalGameModeBase.h"; sourceTree = SOURCE_ROOT; };
+		DD8B9B04752C2C3F8A377C0E = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "StartGameModeBase.h"; path = "../../Source/MyProject_test_blank/Public/GameModeBase/StartGameModeBase.h"; sourceTree = SOURCE_ROOT; };
+		F01F8C5C249AEC851F1C6F69 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "MyMath.h"; path = "../../Source/MyProject_test_blank/Public/Utility/MyMath.h"; sourceTree = SOURCE_ROOT; };
+		E016987009B3CB1CC7CF8B17 = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "WidgetUserActionDisp.h"; path = "../../Source/MyProject_test_blank/Public/Widget/UserAction/WidgetUserActionDisp.h"; sourceTree = SOURCE_ROOT; };
+		940AC694D607EE88F16DFF10 = {isa = PBXFileReference; explicitFileType = file.txt; name = "MyProject_test_blankEditor.Target.cs"; path = "../../Source/MyProject_test_blankEditor.Target.cs"; sourceTree = SOURCE_ROOT; };
+		8DF0CD0C6EA6246829EA32D7 = {isa = PBXFileReference; explicitFileType = wrapper.application; name = "MyProject_test_blankEditor"; path = "MyProject_test_blankEditor"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1ABE19D672EBD11088DCA2B = {isa = PBXFileReference; explicitFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "/Users/Shared/Epic Games/UE_5.4/Engine/Build/Mac/Resources/Assets.xcassets"; sourceTree = "<absolute>"; };
+		D5BC88AFE68D6309351BD2AE = {isa = PBXFileReference; explicitFileType = wrapper.storyboardc; name = "LaunchScreen.storyboardc"; path = "/Users/Shared/Epic Games/UE_5.4/Engine/Build/IOS/Resources/Interface/LaunchScreen.storyboardc"; sourceTree = "<absolute>"; };
+		CC4DC4F489062BBA9CA6B9E7 = {isa = PBXFileReference; explicitFileType = file.txt; name = "UEMetadata"; path = "/Users/Shared/Epic Games/UE_5.4/Engine/Build/Mac/Resources/UEMetadata"; sourceTree = "<absolute>"; };
+		AE6F0AAC1DF6CD79D2E9A8FB = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "MyProject_test_blankEditor.xcconfig"; path = "XcconfigsMac/MyProject_test_blankEditor.xcconfig"; sourceTree = "<group>"; };
+		B177AB690CF32A42FA3CF95E = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "MyProject_test_blankEditor_DebugGame.xcconfig"; path = "XcconfigsMac/MyProject_test_blankEditor_DebugGame.xcconfig"; sourceTree = "<group>"; };
+		9241678B03B434DB49388002 = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "MyProject_test_blankEditor_Development.xcconfig"; path = "XcconfigsMac/MyProject_test_blankEditor_Development.xcconfig"; sourceTree = "<group>"; };
+		FA9034DC3BD3107E3F2A8485 = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "MyProject_test_blankEditor_Index.xcconfig"; path = "XcconfigsMac/MyProject_test_blankEditor_Index.xcconfig"; sourceTree = "<group>"; };
+		EDCEDC6BEBB3E20F300DA86B = {isa = PBXFileReference; explicitFileType = text.plist; name = "Info-Editor.Template.plist"; path = "../../../../../../Shared/Epic Games/UE_5.4/Engine/Intermediate/Build/Mac/Resources/Info-Editor.Template.plist"; sourceTree = "<group>"; };
+		3AC013113BD7D204A6EA8224 = {isa = PBXFileReference; explicitFileType = text.plist; name = "Info.Template.plist"; path = "../../Build/Mac/Resources/Info.Template.plist"; sourceTree = "<group>"; };
+		BBB17797A03C56FD121C80A7 = {isa = PBXFileReference; explicitFileType = text.plist; name = "Sandbox.Server.entitlements"; path = "../../Build/Mac/Resources/Sandbox.Server.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		5D11A2009BC212DA57094357 = {
+			isa = PBXGroup;
+			children = (
+				FB53EE20C2FEEAB17EC60828 /* Source */,
+				10E4841AB4578BB4EF66F8B7 /* MyProject_test_blank.uproject */,
+				DB6DB93C6B0703BD9DDA4180 /* README.md */,
+				10AFFF0D7980A019DCC06902 /* Products */,
+				35FAD47D33EC88C152EE525F /* Resources */,
+				9515A9D643DCCF34C598E6CC /* Xcconfigs */,
+				F73098996D6B14BC4CA50589 /* Metadata */,
+			);
+			sourceTree = "<group>";
+		};
+		FB53EE20C2FEEAB17EC60828 = {
+			isa = PBXGroup;
+			children = (
+				90127D67CF3A9B23B845CCAE /* MyProject_test_blank */,
+				940AC694D607EE88F16DFF10 /* MyProject_test_blankEditor.Target.cs */,
+			);
+			name = "Source";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source";
+			sourceTree = "<absolute>";
+		};
+		90127D67CF3A9B23B845CCAE = {
+			isa = PBXGroup;
+			children = (
+				E7E53B6B4A7494720E37961C /* Private */,
+				B2EC8A537F9E67FBF8148249 /* Public */,
+				1D5D503ED32AA262171127E5 /* MyProject_test_blank.Build.cs */,
+				A703E1459CD35E9F38D6E57B /* MyProject_test_blank.cpp */,
+				585881F84BC8D0F151DABD95 /* MyProject_test_blank.h */,
+			);
+			name = "MyProject_test_blank";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank";
+			sourceTree = "<absolute>";
+		};
+		E7E53B6B4A7494720E37961C = {
+			isa = PBXGroup;
+			children = (
+				43B1863864E2819AE53F6555 /* Actor */,
+				DBB62B30E47B1A3FD3C1032D /* GameModeBase */,
+				E1E60427F1D00C816FF7E945 /* Utility */,
+				D504778DC8E094E41C1EAEF8 /* Widget */,
+			);
+			name = "Private";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Private";
+			sourceTree = "<absolute>";
+		};
+		43B1863864E2819AE53F6555 = {
+			isa = PBXGroup;
+			children = (
+				58485963E5550FB846437206 /* Character */,
+				211F08530A365F27C06A44E3 /* GimmickObj */,
+			);
+			name = "Actor";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Private/Actor";
+			sourceTree = "<absolute>";
+		};
+		58485963E5550FB846437206 = {
+			isa = PBXGroup;
+			children = (
+				C5884600E0394B9508945128 /* NPC */,
+				D0141167A88288ED6097F582 /* Player */,
+				3AE3C3C8718475443D3A9DEB /* OriginalCharacter.cpp */,
+			);
+			name = "Character";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Private/Actor/Character";
+			sourceTree = "<absolute>";
+		};
+		C5884600E0394B9508945128 = {
+			isa = PBXGroup;
+			children = (
+				DEC852A754737201A5D516F1 /* TypeObject */,
+			);
+			name = "NPC";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Private/Actor/Character/NPC";
+			sourceTree = "<absolute>";
+		};
+		DEC852A754737201A5D516F1 = {
+			isa = PBXGroup;
+			children = (
+				DC5659CD89A8019D94163BE5 /* CubeObject.cpp */,
+			);
+			name = "TypeObject";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Private/Actor/Character/NPC/TypeObject";
+			sourceTree = "<absolute>";
+		};
+		D0141167A88288ED6097F582 = {
+			isa = PBXGroup;
+			children = (
+				45CFA2521AD444DD5413EC1A /* PlayerControlCharacter.cpp */,
+			);
+			name = "Player";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Private/Actor/Character/Player";
+			sourceTree = "<absolute>";
+		};
+		211F08530A365F27C06A44E3 = {
+			isa = PBXGroup;
+			children = (
+				736F6CF90B14AD79585129AA /* MovePoint.cpp */,
+				5C20C675C8836A4A0674C613 /* TrainArm.cpp */,
+			);
+			name = "GimmickObj";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Private/Actor/GimmickObj";
+			sourceTree = "<absolute>";
+		};
+		DBB62B30E47B1A3FD3C1032D = {
+			isa = PBXGroup;
+			children = (
+				485D383540DA6AF124C6965C /* OriginalGameModeBase.cpp */,
+				C5C82DB85A128FAA914A9B2B /* StartGameModeBase.cpp */,
+			);
+			name = "GameModeBase";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Private/GameModeBase";
+			sourceTree = "<absolute>";
+		};
+		E1E60427F1D00C816FF7E945 = {
+			isa = PBXGroup;
+			children = (
+				0522B7E986343FF0ACDF88BA /* MyMath.cpp */,
+			);
+			name = "Utility";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Private/Utility";
+			sourceTree = "<absolute>";
+		};
+		D504778DC8E094E41C1EAEF8 = {
+			isa = PBXGroup;
+			children = (
+				D7045B995FCCFBE0B9DB57CA /* UserAction */,
+			);
+			name = "Widget";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Private/Widget";
+			sourceTree = "<absolute>";
+		};
+		D7045B995FCCFBE0B9DB57CA = {
+			isa = PBXGroup;
+			children = (
+				0C96AE39820107E20D606FFC /* WidgetUserActionDisp.cpp */,
+			);
+			name = "UserAction";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Private/Widget/UserAction";
+			sourceTree = "<absolute>";
+		};
+		B2EC8A537F9E67FBF8148249 = {
+			isa = PBXGroup;
+			children = (
+				D7181711946C41012BD04EC0 /* Actor */,
+				F73DF7BA0AF98ED6CEFEDAC5 /* GameModeBase */,
+				8051E9B76222DABC8ED3830B /* Utility */,
+				6465DA93EBB1F5AE75E6A642 /* Widget */,
+			);
+			name = "Public";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Public";
+			sourceTree = "<absolute>";
+		};
+		D7181711946C41012BD04EC0 = {
+			isa = PBXGroup;
+			children = (
+				BDE4A04E03DA0C1C2920C215 /* Character */,
+				62B064AC8950E1CC0B50C64E /* GimmickObj */,
+			);
+			name = "Actor";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Public/Actor";
+			sourceTree = "<absolute>";
+		};
+		BDE4A04E03DA0C1C2920C215 = {
+			isa = PBXGroup;
+			children = (
+				F30A919C7F46FDDFF0D84F88 /* NPC */,
+				BAC6ACF539752DAEF854FBA1 /* Player */,
+				DBE742AE00201C3C28CF88CE /* OriginalCharacter.h */,
+			);
+			name = "Character";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Public/Actor/Character";
+			sourceTree = "<absolute>";
+		};
+		F30A919C7F46FDDFF0D84F88 = {
+			isa = PBXGroup;
+			children = (
+				B4E3CF246E15C9861C3C92C2 /* TypeObject */,
+			);
+			name = "NPC";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Public/Actor/Character/NPC";
+			sourceTree = "<absolute>";
+		};
+		B4E3CF246E15C9861C3C92C2 = {
+			isa = PBXGroup;
+			children = (
+				8B640BEDF07C4745226A6C29 /* CubeObject.h */,
+			);
+			name = "TypeObject";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Public/Actor/Character/NPC/TypeObject";
+			sourceTree = "<absolute>";
+		};
+		BAC6ACF539752DAEF854FBA1 = {
+			isa = PBXGroup;
+			children = (
+				7E878B8C4AD56F429659239B /* PlayerControlCharacter.h */,
+			);
+			name = "Player";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Public/Actor/Character/Player";
+			sourceTree = "<absolute>";
+		};
+		62B064AC8950E1CC0B50C64E = {
+			isa = PBXGroup;
+			children = (
+				BE79484811B8A89930114E9C /* MovePoint.h */,
+				216D2D4648E4140F24E4235F /* TrainArm.h */,
+			);
+			name = "GimmickObj";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Public/Actor/GimmickObj";
+			sourceTree = "<absolute>";
+		};
+		F73DF7BA0AF98ED6CEFEDAC5 = {
+			isa = PBXGroup;
+			children = (
+				C98E3D69A3473E4E16C75048 /* OriginalGameModeBase.h */,
+				DD8B9B04752C2C3F8A377C0E /* StartGameModeBase.h */,
+			);
+			name = "GameModeBase";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Public/GameModeBase";
+			sourceTree = "<absolute>";
+		};
+		8051E9B76222DABC8ED3830B = {
+			isa = PBXGroup;
+			children = (
+				F01F8C5C249AEC851F1C6F69 /* MyMath.h */,
+			);
+			name = "Utility";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Public/Utility";
+			sourceTree = "<absolute>";
+		};
+		6465DA93EBB1F5AE75E6A642 = {
+			isa = PBXGroup;
+			children = (
+				3835F3ED5B6DCA94B289E608 /* UserAction */,
+			);
+			name = "Widget";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Public/Widget";
+			sourceTree = "<absolute>";
+		};
+		3835F3ED5B6DCA94B289E608 = {
+			isa = PBXGroup;
+			children = (
+				E016987009B3CB1CC7CF8B17 /* WidgetUserActionDisp.h */,
+			);
+			name = "UserAction";
+			path = "/Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/Source/MyProject_test_blank/Public/Widget/UserAction";
+			sourceTree = "<absolute>";
+		};
+		10AFFF0D7980A019DCC06902 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DF0CD0C6EA6246829EA32D7 /* MyProject_test_blankEditor */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35FAD47D33EC88C152EE525F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1ABE19D672EBD11088DCA2B /* Assets.xcassets */,
+				D5BC88AFE68D6309351BD2AE /* LaunchScreen.storyboardc */,
+				CC4DC4F489062BBA9CA6B9E7 /* UEMetadata */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9515A9D643DCCF34C598E6CC /* Xcconfigs */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F0AAC1DF6CD79D2E9A8FB /* MyProject_test_blankEditor.xcconfig */,
+				B177AB690CF32A42FA3CF95E /* MyProject_test_blankEditor_DebugGame.xcconfig */,
+				9241678B03B434DB49388002 /* MyProject_test_blankEditor_Development.xcconfig */,
+				FA9034DC3BD3107E3F2A8485 /* MyProject_test_blankEditor_Index.xcconfig */,
+			);
+			name = Xcconfigs;
+			sourceTree = "<group>";
+		};
+		F73098996D6B14BC4CA50589 /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				EDCEDC6BEBB3E20F300DA86B /* Info-Editor.Template.plist */,
+				3AC013113BD7D204A6EA8224 /* Info.Template.plist */,
+				BBB17797A03C56FD121C80A7 /* Sandbox.Server.entitlements */,
+			);
+			name = Metadata;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+/* Begin PBXProject section */
+		93B343E24DE5170B6A42752A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					FD7A93DF6DD7CC24C6AE584C = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 290EC4968920E00741AAA2AC /* Build configuration list for PBXProject "MyProject_test_blankEditor" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 5D11A2009BC212DA57094357;
+			productRefGroup = 10AFFF0D7980A019DCC06902;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD7A93DF6DD7CC24C6AE584C /* MyProject_test_blankEditor */,
+				32536FE82AEF86581EC3BC6D /* MyProject_test_blankEditor_Index */,
+				B987B165A4CFFD95B4A07E41 /* MyProject_test_blankEditor_Build */,
+			);
+		};
+/* End PBXProject section */
+/* Begin Run_App section */
+		FD7A93DF6DD7CC24C6AE584C /* MyProject_test_blankEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29E1B7F07ACB74F5B7969C30 /* Build configuration list for PBXNativeTarget "MyProject_test_blankEditor" */;
+			buildPhases = (
+				AC1145744DE35C0DCF28AF38 /* Resources */,
+				30867D11ADE7E3A379F7BD32 /* Copy Executable into .app */,
+			);
+			dependencies = (
+				3D229B02BB461CC53D1DE7FF /* MyProject_test_blankEditor_Build */,
+			);
+			name = "MyProject_test_blankEditor";
+			passBuildSettingsInEnvironment = 1;
+			productType = "com.apple.product-type.application";
+			productReference = 8DF0CD0C6EA6246829EA32D7;
+			productName = "MyProject_test_blankEditor";
+		};
+/* End Run_App section */
+		29E1B7F07ACB74F5B7969C30 /* Build configuration list for target MyProject_test_blankEditor */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B2AFEFCC7841E3CFBBE4EB /* DebugGame */,
+				CA9F40CD6BC8622FA5FB2AEA /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Development";
+		};
+		23B2AFEFCC7841E3CFBBE4EB /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B177AB690CF32A42FA3CF95E /* MyProject_test_blankEditor_DebugGame.xcconfig */;
+			buildSettings = {
+			};
+			name = "DebugGame";
+		};
+		CA9F40CD6BC8622FA5FB2AEA /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9241678B03B434DB49388002 /* MyProject_test_blankEditor_Development.xcconfig */;
+			buildSettings = {
+			};
+			name = "Development";
+		};
+/* Begin PBXResourcesBuildPhase section */
+		AC1145744DE35C0DCF28AF38 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9983FB132EAE47630B924A7 /* Assets.xcassets in Resources */,
+				8448B04A4184A34299DEE030 /* LaunchScreen.storyboardc in Resources */,
+				CEC54466E4B15FB0EBC0D5D3 /* UEMetadata in Resources */,
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+/* Begin PBXShellScriptBuildPhase section */
+		30867D11ADE7E3A379F7BD32 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Copy Executable into .app";
+			inputPaths = (
+			);
+			outputPaths = (
+				"/dev/null"
+			);
+			shellPath = /bin/sh;
+			shellScript = "set -eo pipefail\nSRC_EXE=\"${UE_BINARIES_DIR}/${UE_UBT_BINARY_SUBPATH}\"\nDEST_EXE=\"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"\nDEST_EXE_DIR=`dirname \"${DEST_EXE}\"`\n\necho Copying executable and any standalone dylibs into ${DEST_EXE_DIR} but do not overwrite unless src is newer\nmkdir -p \"${DEST_EXE_DIR}\"\nrsync -au \"${SRC_EXE}\" \"${DEST_EXE}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		1D081E27726C88E6C34FB259 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93B343E24DE5170B6A42752A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B987B165A4CFFD95B4A07E41;
+			remoteInfo = "MyProject_test_blankEditor_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		3D229B02BB461CC53D1DE7FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B987B165A4CFFD95B4A07E41 /* MyProject_test_blankEditor_Build */;
+			targetProxy = 1D081E27726C88E6C34FB259 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+/* Begin Build section */
+		B987B165A4CFFD95B4A07E41 /* MyProject_test_blankEditor_Build */ = {
+			isa = PBXLegacyTarget;
+			buildConfigurationList = 0511C46F2E9B5D2BA2866BAC /* Build configuration list for PBXLegacyTarget "MyProject_test_blankEditor_Build" */;
+			buildArgumentsString = "$(ACTION) MyProject_test_blankEditor $(PLATFORM_NAME) $(CONFIGURATION) /Users/jumpeiito/work-space-j-ito/ueProj/UE5.4_2024_5_22/MyProject_test_blank.uproject";
+			buildToolPath = "/Users/Shared/Epic Games/UE_5.4/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/Shared/Epic Games/UE_5.4";
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "MyProject_test_blankEditor_Build";
+			passBuildSettingsInEnvironment = 1;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End Build section */
+		0511C46F2E9B5D2BA2866BAC /* Build configuration list for target MyProject_test_blankEditor_Build */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A5C9060C550FFACEBBD19F /* DebugGame */,
+				F6932595315BB163097C9767 /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Development";
+		};
+		50A5C9060C550FFACEBBD19F /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = "DebugGame";
+		};
+		F6932595315BB163097C9767 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = "Development";
+		};
+		290EC4968920E00741AAA2AC /* Build configuration list for target MyProject_test_blankEditor */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6950DBF2424A175FA7F32E5 /* DebugGame */,
+				CBE41DA0A216A8925DF29CC2 /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Development";
+		};
+		B6950DBF2424A175FA7F32E5 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos appletvsimulator appletvos xros xrsimulator";
+				ONLY_ACTIVE_ARCH = YES;
+				"VALID_ARCHS[sdk=macos*]" = "arm64 x86_64";
+			};
+			name = "DebugGame";
+		};
+		CBE41DA0A216A8925DF29CC2 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos appletvsimulator appletvos xros xrsimulator";
+				ONLY_ACTIVE_ARCH = YES;
+				"VALID_ARCHS[sdk=macos*]" = "arm64 x86_64";
+			};
+			name = "Development";
+		};
+/* Begin Index section */
+		32536FE82AEF86581EC3BC6D /* MyProject_test_blankEditor_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C185D81B6C9B1B4134563A4 /* Build configuration list for PBXNativeTarget "MyProject_test_blankEditor_Index" */;
+			buildPhases = (
+				D763AE01F02045E13490BED2 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "MyProject_test_blankEditor_Index";
+			passBuildSettingsInEnvironment = 1;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End Index section */
+		1C185D81B6C9B1B4134563A4 /* Build configuration list for target MyProject_test_blankEditor_Index */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54FBEAA1078B0423371B2362 /* DebugGame */,
+				F14D051154435E73C659E335 /* Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Development";
+		};
+		54FBEAA1078B0423371B2362 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA9034DC3BD3107E3F2A8485 /* MyProject_test_blankEditor_Index.xcconfig */;
+			buildSettings = {
+			};
+			name = "DebugGame";
+		};
+		F14D051154435E73C659E335 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA9034DC3BD3107E3F2A8485 /* MyProject_test_blankEditor_Index.xcconfig */;
+			buildSettings = {
+			};
+			name = "Development";
+		};
+/* Begin PBXSourcesBuildPhase section */
+		D763AE01F02045E13490BED2 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC4287018F4DADD3A0A41BA /* MyProject_test_blank.cpp in Sources */,
+				4E38B0D4E7DEA4B66B5C8EB0 /* CubeObject.cpp in Sources */,
+				940ED7F8B2F6A48930BF8BAF /* OriginalCharacter.cpp in Sources */,
+				BFA1D981FF81D55A71EBAA7A /* PlayerControlCharacter.cpp in Sources */,
+				DA5A69B7E0A906827CC19039 /* MovePoint.cpp in Sources */,
+				2B316F23BEB34F0BC32E3232 /* TrainArm.cpp in Sources */,
+				48131DFC6D9E7BF9BEE2BACD /* OriginalGameModeBase.cpp in Sources */,
+				F1BBFA4DFA2A931BD7FEFAC6 /* StartGameModeBase.cpp in Sources */,
+				2BA7BB9439FF5637FDCB1546 /* MyMath.cpp in Sources */,
+				6C332A0C8CC5D7A61FCF05E6 /* WidgetUserActionDisp.cpp in Sources */,
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+	};
+	rootObject = 93B343E24DE5170B6A42752A /* Project object */;
+}
